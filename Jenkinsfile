@@ -13,7 +13,7 @@ pipeline {
          }
          stage('Deployment'){
             steps {
-                sh 'cp target/Project1.war /home/chaitanya/Documents/Devops-Tool/apache-tomcat-9.0.93/webapps'
+                sh 'cp target/Project2.war /home/chaitanya/Documents/Devops-Tool/apache-tomcat-9.0.93/webapps'
                 }
          }
     	}
